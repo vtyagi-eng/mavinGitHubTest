@@ -13,6 +13,7 @@ public class fbLogin
 		driver= new ChromeDriver();
 		driver.get("https://en-gb.facebook.com/login/");
 		driver.manage().window().maximize();
+		//maximizing the screeen
 	}
 	
 	public void login()
